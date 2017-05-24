@@ -22,21 +22,35 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
-  width: 10px;
-  height: 10px;
+  /*border:10px solid red;*/
+  width: 210px;
+  height: 200px;
   position:absolute;
+  background-position: center;
+  background-image: url(http://orig11.deviantart.net/a9ed/f/2013/095/2/3/iaza13057433812500_by_thecrossfollower-d60l0qa.gif);
 }
 .megaman{
-  
-  border:10px solid red;
-  width: 10px;
-  height: 10px;
+  /*border:10px solid red;*/
+  width: 210px;
+  height: 200px;
+/*  width: auto;
+  height: auto;*/
   position:absolute;
-  background-image: url('http://img13.deviantart.net/80a7/i/2016/037/e/3/hd_mega_man_sprite_by_justedesserts-d6e7pv3.png');
+  background-position: center;
+  background-image: url(https://media.giphy.com/media/66f1yzwMAiPFm/giphy-downsized.gif?response_id=5924c4d5399d0c7d8b9ea6bf);
+}
+.protoman{
+  /*border:10px solid red;*/
+  width: 419.048px;
+  height: 550px;
+/* width: auto;
+  height: auto;*/
+  background-repeat: no-repeat;
+  position:absolute;
+  background-position: center;
+  background-image: url(https://media.giphy.com/media/QHS8AaF1Afe7K/giphy-downsized.gif?response_id=59250c7702b98cff9b7e69a2);
 }
 .animate {
-    transform:rotate(2160deg) scale(10);
+    transform:rotate(2160deg);
     transition:all 1s ease-in-out;
-    color: rgb(66, 173, 77);
 }
